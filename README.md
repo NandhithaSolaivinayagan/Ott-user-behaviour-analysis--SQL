@@ -16,7 +16,7 @@ The database consists of the following tables:
 - Watch_History
 
 ## Business Questions Solved
-- count on each subscription
+- Count on each subscription
 - Which genre has the highest watch time?
 - Average watch time per user
 - Top 5 most watched contents
