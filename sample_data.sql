@@ -1,3 +1,4 @@
+--inserting data in users table
 INSERT INTO users (user_id, name, age, gender, country, signup_date) VALUES
 (1, 'Aarav', 22, 'M', 'India', '2024-01-10'),
 (2, 'Meera', 25, 'F', 'India', '2024-01-15'),
@@ -20,6 +21,7 @@ INSERT INTO users (user_id, name, age, gender, country, signup_date) VALUES
 (19, 'Prakash', 45, 'M', 'India', '2024-04-12'),
 (20, 'Swathi', 33, 'F', 'India', '2024-04-15');
 
+--inserting data in subscriptions table
 INSERT INTO subscriptions (user_id, plan, start_date, end_date) VALUES
 (1, 'Free', '2024-01-10', NULL),
 (2, 'Basic', '2024-01-15', '2025-01-15'),
@@ -42,6 +44,7 @@ INSERT INTO subscriptions (user_id, plan, start_date, end_date) VALUES
 (19, 'Free', '2024-04-12', NULL),
 (20, 'Premium', '2024-04-15', '2025-04-15');
 
+--inserting data in content table
 INSERT INTO content (content_id, title, genre, language, release_year) VALUES
 (1, 'City Dreams', 'Drama', 'English', 2023),
 (2, 'Love Beats', 'Romance', 'Tamil', 2022),
@@ -54,6 +57,7 @@ INSERT INTO content (content_id, title, genre, language, release_year) VALUES
 (9, 'Fast Track', 'Action', 'Hindi', 2023),
 (10, 'Heartstrings', 'Romance', 'English', 2024);
 
+--inserting data in watch_history table
 INSERT INTO watch_history (watch_id, user_id, content_id, watch_date, watch_time_minutes) VALUES
 (1, 1, 1, '2024-04-01', 45),
 (2, 2, 2, '2024-04-02', 60),
