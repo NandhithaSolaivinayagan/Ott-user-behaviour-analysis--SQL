@@ -1,4 +1,3 @@
-# Ott-user-behaviour-analysis-SQL
 # OTT User Behavior Analysis (SQL Project)
 
 ## Project Overview
