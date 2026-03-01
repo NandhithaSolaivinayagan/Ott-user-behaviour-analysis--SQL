@@ -1,3 +1,4 @@
+-- users schema
 CREATE TABLE users(
 user_id INT primary key,
 name VARCHAR(50),
@@ -6,7 +7,7 @@ gender VARCHAR (10),
 country VARCHAR (50),
 signup_date DATE
 );
-
+-- subscriptions schema
 CREATE TABLE subscriptions(
 user_id INT,
 plan VARCHAR(50),
@@ -14,7 +15,7 @@ start_date DATE,
 end_date DATE,
 FOREIGN KEY (user_id) references users(user_id)
 );
-
+-- content schema
 CREATE TABLE content (
     content_id INT PRIMARY KEY,
     title VARCHAR(100),
@@ -22,7 +23,7 @@ CREATE TABLE content (
     language VARCHAR(30),
     release_year INT
 );
-
+-- watch_history schema
 CREATE TABLE watch_history (
     watch_id INT PRIMARY KEY,
     user_id INT,
